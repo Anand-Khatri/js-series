@@ -31,5 +31,36 @@ console.log(stringnumber)
 console.log(typeof stringnumber)
 
 
+/*  ********************************************     Operation *****************************************************************/
 
 
+let value=3;
+let negvalue=-value
+
+console.log(negvalue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**3)
+console.log(2/3)
+
+console.log("2"+"2")
+console.log("2"+2)
+console.log(2+"2")
+console.log("2"+2+2)
+console.log(2+2+"2")
+
+console.log((3+4)*5%3)
+
+
+let num1,num2,num3
+
+num1=num2=num3=2+2
+
+ console.log(num1+num2+num3)
+
+ let gamechanger=100
+
+ gamechanger++
+ console.log(gamechanger)
