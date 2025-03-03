@@ -59,3 +59,36 @@ console.log(typeof city)
 // funciton => function 
 // null=> object 
 //
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack and Heap
+
+// Stack -> primitive datatype store hota hain
+// heap -> non - primitive data store hota hai
+
+let myemail="anand@gmail.com"
+
+let myemailaddress=myemail
+//console.log(myemailaddress)
+
+myemailaddress="khatri@gmail.com"
+
+console.log(myemail)
+console.log(myemailaddress)
+
+
+let userone={
+    email: "ak@gmail.com",
+    name: "anand"
+}
+
+let usertwo=userone
+
+usertwo.email="khatri@gmail.com"
+
+console.log(userone)
+console.log(usertwo)
